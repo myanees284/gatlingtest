@@ -1,0 +1,51 @@
+RUN	com.testingexcellence.simulations.CreateUserSimulation		createusersimulation	1560700787158	null	2.0
+USER	Create User Scenario	1	START	1560700788751	1560700788751
+USER	Create User Scenario	2	START	1560700788822	1560700788822
+USER	Create User Scenario	3	START	1560700788836	1560700788836
+USER	Create User Scenario	4	START	1560700788839	1560700788839
+USER	Create User Scenario	5	START	1560700788850	1560700788850
+USER	Create User Scenario	6	START	1560700788859	1560700788859
+USER	Create User Scenario	7	START	1560700788870	1560700788870
+USER	Create User Scenario	8	START	1560700788872	1560700788872
+USER	Create User Scenario	9	START	1560700788879	1560700788879
+USER	Create User Scenario	10	START	1560700788881	1560700788881
+REQUEST	Create User Scenario	1		RequestName	1560700788798	1560700788857	OK	 
+REQUEST	Create User Scenario	2		RequestName	1560700788822	1560700788861	OK	 
+REQUEST	Create User Scenario	4		RequestName	1560700788839	1560700788933	OK	 
+REQUEST	Create User Scenario	5		RequestName	1560700788850	1560700788978	OK	 
+REQUEST	Create User Scenario	7		RequestName	1560700788871	1560700788996	OK	 
+REQUEST	Create User Scenario	10		RequestName	1560700788882	1560700789000	OK	 
+REQUEST	Create User Scenario	3		RequestName	1560700788837	1560700789010	OK	 
+REQUEST	Create User Scenario	8		RequestName	1560700788872	1560700789021	OK	 
+REQUEST	Create User Scenario	6		RequestName	1560700788859	1560700789075	OK	 
+REQUEST	Create User Scenario	9		RequestName	1560700788879	1560700789078	OK	 
+REQUEST	Create User Scenario	1		RequestName Redirect 1	1560700788922	1560700789493	KO	status.find.is(200), but actually found 404
+REQUEST	Create User Scenario	4		RequestName Redirect 1	1560700788938	1560700789504	KO	status.find.is(200), but actually found 404
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789608
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789624
+USER	Create User Scenario	1	END	1560700788751	1560700789640
+USER	Create User Scenario	4	END	1560700788839	1560700789644
+REQUEST	Create User Scenario	2		RequestName Redirect 1	1560700788923	1560700789665	KO	status.find.is(200), but actually found 404
+REQUEST	Create User Scenario	5		RequestName Redirect 1	1560700788986	1560700789656	KO	status.find.is(200), but actually found 404
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789682
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789679
+USER	Create User Scenario	5	END	1560700788850	1560700789683
+USER	Create User Scenario	2	END	1560700788822	1560700789687
+REQUEST	Create User Scenario	3		RequestName Redirect 1	1560700789020	1560700789716	KO	status.find.is(200), but actually found 404
+REQUEST	Create User Scenario	10		RequestName Redirect 1	1560700789010	1560700789718	KO	status.find.is(200), but actually found 404
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789728
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789727
+USER	Create User Scenario	3	END	1560700788836	1560700789730
+USER	Create User Scenario	10	END	1560700788881	1560700789740
+REQUEST	Create User Scenario	6		RequestName Redirect 1	1560700789077	1560700789734	KO	status.find.is(200), but actually found 404
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789773
+USER	Create User Scenario	6	END	1560700788859	1560700789780
+REQUEST	Create User Scenario	8		RequestName Redirect 1	1560700789025	1560700789786	KO	status.find.is(200), but actually found 404
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789793
+USER	Create User Scenario	8	END	1560700788872	1560700789798
+REQUEST	Create User Scenario	7		RequestName Redirect 1	1560700789002	1560700789818	KO	status.find.is(200), but actually found 404
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789835
+USER	Create User Scenario	7	END	1560700788870	1560700789838
+REQUEST	Create User Scenario	9		RequestName Redirect 1	1560700789083	1560700789851	KO	status.find.is(200), but actually found 404
+GROUP	Failed to build request Create User Request: No attribute named 'token' is defined 	1560700789870
+USER	Create User Scenario	9	END	1560700788879	1560700789873

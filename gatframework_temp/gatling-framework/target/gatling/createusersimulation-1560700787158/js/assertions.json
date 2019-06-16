@@ -1,0 +1,10 @@
+{
+  "simulation": "com.testingexcellence.simulations.CreateUserSimulation",
+  "simulationId": "createusersimulation",
+  "start": 1560700787158,
+  "description": "null",
+  "scenarios": ["Create User Scenario"],
+  "assertions": [
+
+  ]
+}

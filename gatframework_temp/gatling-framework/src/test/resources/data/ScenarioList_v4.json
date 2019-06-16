@@ -1,0 +1,40 @@
+[
+  {
+	"ScenarioName": "LoyaltyUpgradeMilesQuote",
+	"RequestList": [
+			{
+				"Request": "LoyaltyUpgradeMilesQuote"
+			}
+	  ],
+    "inject": [
+      {
+        "type": "rampUsers",
+        "args": [
+          2,
+          2
+        ]
+      }
+    ],
+	"Pacing": 15,
+    "ExecutionFlag": "Y"
+  },
+  {
+	"ScenarioName": "GetGatlingDyn",
+	"RequestList": [
+			{
+				"Request": "GetGatlingDyn"
+			}
+	  ],
+    "inject": [
+      {
+        "type": "rampUsers",
+        "args": [
+          5,
+          5
+        ]
+      }
+    ],
+	"Pacing": 15,
+    "ExecutionFlag": "N"
+  }
+]
